@@ -28,7 +28,7 @@ public class rsa {
 			e = sc.nextLong();
 			pq[0] = pq[1] = 0;
 
-			//calculate prime factors from n
+			//calculate prime factors of n
 			for(int j = 2; j < n; j++) {
 				if(count >= 2)
 					break;
